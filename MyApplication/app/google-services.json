@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1088560302521",
+    "firebase_url": "https://patide-75d64.firebaseio.com",
+    "project_id": "patide-75d64",
+    "storage_bucket": "patide-75d64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1088560302521:android:e7231eecfaaa75f0",
+        "android_client_info": {
+          "package_name": "com.wrexsoft.canturgut.patide"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1088560302521-h1knes9kh9u3hi1i56eknqhv5dqeal8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.wrexsoft.canturgut.patide",
+            "certificate_hash": "42064e702770d62a23748d208ed6c1f0023c9816"
+          }
+        },
+        {
+          "client_id": "1088560302521-1m766aiv516ikqkd1ofdqkch9efsqrds.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-CsNDPqtP05Ka_KZLiwujRy_OMGSqNH8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1088560302521-1m766aiv516ikqkd1ofdqkch9efsqrds.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

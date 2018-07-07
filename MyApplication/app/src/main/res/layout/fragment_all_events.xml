@@ -1,0 +1,82 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.wrexsoft.canturgut.patide.AllEventsFragment">
+
+    <com.wang.avi.AVLoadingIndicatorView
+        android:id="@+id/avi"
+        style="@style/AVLoadingIndicatorView"
+        android:layout_width="104dp"
+        android:layout_height="87dp"
+        android:layout_gravity="center"
+        android:visibility="visible"
+        app:indicatorColor="@color/patide_color"
+        app:indicatorName="BallClipRotateMultipleIndicator" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/sortByDate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_white_color"
+                android:text="@string/all_events_hour"
+                android:textColor="@color/patide_color" />
+
+            <Button
+                android:id="@+id/SortbyName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_white_color"
+                android:text="@string/all_events_day"
+                android:textColor="@color/patide_color" />
+
+            <Button
+                android:id="@+id/sortByPriority"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:layout_weight="1"
+                android:background="@drawable/button_white_color"
+                android:onClick="sortByPrMethod"
+                android:text="@string/all_events_date"
+                android:textColor="@color/patide_color" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="3dp"
+
+            android:layout_marginBottom="10dp"
+            android:layout_marginTop="10dp"
+
+            android:background="@color/patide_color" />
+
+        <ListView
+            android:id="@+id/listViewAllEvents"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="1dip"
+            android:divider="@color/patide_color"
+            android:dividerHeight="1dp" />
+
+    </LinearLayout>
+
+</FrameLayout>

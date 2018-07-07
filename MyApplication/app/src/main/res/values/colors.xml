@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#7e0c88</color>
+    <color name="colorPrimaryDark">#7e0c88</color>
+    <color name="colorAccent">#7e0c88</color>
+
+    <!-- COLOR PATITE -->
+
+    <color name="patide_color">#7e0c88</color>
+    <color name="patide_white">#ffffff</color>
+    <color name="patide_accept">#56c97c</color>
+    <color name="patide_dark">#353535</color>
+    <color name="patite_warning">#f63434</color>
+    <color name="patide_grey">#888888</color>
+    <color name="patide_yellow">#F4A92D</color>
+    <color name="patide_blue">#1d71f7</color>
+
+</resources>
